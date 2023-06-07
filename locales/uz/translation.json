@@ -1,0 +1,19 @@
+{
+  "menu": {
+    "about": "Biz haqimizda",
+    "service": "Xizmatlar",
+    "contact": "Bog'lanish"
+  },
+  "slider": {
+    "1": {
+      "subtitle": "Organik sabzavotlar",
+      "title": "Sog'liqni saqlash uchun organik sabzavotlar"
+    },
+    "2": {
+      "subtitle": "Organik mevalar",
+      "title": "Yaxshi sog'lomlik uchun organik mevalar"
+    },
+    "btn-one": "Xizmatlar",
+    "btn-two": "Aloqa"
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "menu": {
+        "about": "About",
+        "service": "Service",
+        "contact": "Contact"
+    },
+    "slider": {
+        "1": {
+            "subtitle": "Organic Vegetables",
+            "title": "Organic Vegetables For Healthy Life"
+           
+        },
+        "2": {
+            "subtitle": "Organic Fruits",
+            "title": "Organic Fruits For Better Health"
+        },
+        "btn-one": "Service",
+        "btn-two": "Contact"
+    },
+    "about-us": {
+        "subtitle": "About Us",
+        "title": "We Produce Organic Food For Your Family",
+        "desc": "Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum et tempor sit. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet magna"
+    }
+}
