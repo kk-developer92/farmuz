@@ -25,6 +25,7 @@
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
     <!-- Customized Bootstrap Stylesheet -->
@@ -65,7 +66,7 @@
                     <div class="dropdown ms-4">
                         <a class="dropdown-toggle btn btn-lg btn-light" href="#" id="languageSwitcher" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            <i class="fi"></i>
+                            <i class="fi fi-ru"></i>
                         </a>
                     
                         <ul class="dropdown-menu" aria-labelledby="languageSwitcher" id="languageDropdown">
@@ -143,7 +144,7 @@
     <!-- Carousel End -->
 
     <!-- About Start -->
-    <div id="about" class="container-fluid about pt-5">
+    <div id="about" class="container-fluid about pt-5" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-6 mb-5 mb-lg-0">
@@ -153,10 +154,10 @@
                 </div>
                 <div class="col-lg-6 pb-5">
                     <div class="mb-3 pb-2">
-                        <h6 class="text-primary text-uppercase">About Us</h6>
-                        <h1 class="display-5">We Produce Organic Food For Your Family</h1>
+                        <h6 class="text-primary text-uppercase" data-i18n="about-us.2.subtitle">About Us</h6>
+                        <h1 class="display-5" data-i18n="about-us.title">We Produce Organic Food For Your Family</h1>
                     </div>
-                    <p class="mb-4">Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum et tempor sit. Clita
+                    <p class="mb-4" data-i18n="about-us.desc">Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum et tempor sit. Clita
                         erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor
                         eirmod magna dolore erat amet magna</p>
                     <div class="row gx-5 gy-4">
@@ -181,7 +182,7 @@
 
 
     <!-- Facts Start -->
-    <div class="container-fluid bg-primary facts py-5 mb-5">
+    <div class="container-fluid bg-primary facts py-5 mb-5" data-aos="fade-up" data-aos-duration="1000" >
         <div class="container py-5">
             <div class="row gx-5 gy-4">
                 <div class="col-lg-3 col-md-6">
@@ -239,7 +240,7 @@
 
 
     <!-- Services Start -->
-    <div id="service" class="container-fluid py-5">
+    <div id="service" class="container-fluid py-5" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
@@ -297,7 +298,7 @@
     <!-- Services End -->
 
     <!-- Contact Start -->
-    <div id="contact" class="container-fluid py-5">
+    <div id="contact" class="container-fluid py-5" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="mx-auto text-center mb-5" style="max-width: 500px;">
                 <h6 class="text-primary text-uppercase">Contact Us</h6>
@@ -397,6 +398,8 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery-i18next@1.2.1/jquery-i18next.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@6.1.3/i18nextBrowserLanguageDetector.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@1.3.2/i18nextHttpBackend.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
