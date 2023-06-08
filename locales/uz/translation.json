@@ -1,19 +1,82 @@
 {
   "menu": {
-    "about": "Biz haqimizda",
-    "service": "Xizmatlar",
-    "contact": "Bog'lanish"
+      "about": "Biz haqimizda",
+      "service": "Xizmatlar",
+      "contact": "Bog'lanish"
   },
   "slider": {
-    "1": {
-      "subtitle": "Organik sabzavotlar",
-      "title": "Sog'liqni saqlash uchun organik sabzavotlar"
-    },
-    "2": {
-      "subtitle": "Organik mevalar",
-      "title": "Yaxshi sog'lomlik uchun organik mevalar"
-    },
-    "btn-one": "Xizmatlar",
-    "btn-two": "Aloqa"
+      "1": {
+          "subtitle": "Organik Sabzavotlar",
+          "title": "Sog'liqni saqlash uchun organik sabzavotlar"
+         
+      },
+      "2": {
+          "subtitle": "Organik mevalar",
+          "title": "Yaxshi sog'liq uchun organik mevalar"
+      },
+      "btn-one": "Xizmatlar",
+      "btn-two": "Bog'lanish"
+  },
+  "about": {
+      "subtitle": "Biz haqimizda",
+      "title": "MUKHAMMADIYEV OTABEK SOBIROVICH HAMMAZO'Y",
+      "desc": "BAKHMAL PLOTS беришлари, oziq-ovqat sifatini oshirish, agrar produktivlikni oshirish, qishloq ahvolini yaxshilash va dunyo iqtisodiyotining rivojlanishiga xizmat qilish. Barcha uchun ovqat-xavfsizlikni erishish BAKHMAL PLOTSning harakatlari asosida – odamlarga yetarli miqdorda yuqori sifatli ovqatga doimiy kirish imkoniyatini ta'minlash maqsadidir. Bizning maqsadimiz xalqning faol, sog'liqiy, hayotiy tarzda yashash uchun yetarli miqdorda yuqori sifatli ovqatga doimiy kirish imkoniyatini ta'minlashdir. Biz oziq-ovqat xavfsizligini erishishga asosiy teginamiz – insonlarga qonuniy ravishda yetarli miqdorda yuqori sifatli ovqatga doimiy kirish imkoniyatini ta'minlash. Bizning faoliyatimiz agrar mahsulotlar yetkazib berish sohasida, oziq-ovqatni sifatli saqlash va qishloq ahvolini yaxshilash sohasida yuqori natijalarga erishish uchun yo'l harakatlari bilan bog'liq. Biz BAKHMAL PLOTS sifatida, dunyo iqtisodiyotining rivojlanishi uchun oziq-ovqat sifatini oshirish, agrar produktivlikni oshirish va qishloq ahvolini yaxshilashga xizmat qilamiz.",
+      "feature1": "100% Organik",
+      "feature1-text": "Bizning muvaffaqiyatimiz katta mahsulotlar va ishimizning sifati uchun ko'p mukofot va takdir bilan tan olingan.",
+      "feature2": "Mukofot olgan",
+      "feature2-text": "Bizning muvaffaqiyatimiz katta mahsulotlar va ishimizning sifati uchun ko'p mukofot va takdir bilan tan olingan."
+  },
+
+  "facts": {
+      "title": ["Yillik go'sht miqdori", "Intensiv bog'", "Yillik sut miqdori", "Jami yer maydoni"],
+      "kg": "kg",
+      "m2": "m2",
+      "litr": "litr"
+  },
+  "service": {
+      "subtitle":"Xizmatlar",
+      "title":"Bizning ferma xizmatlarimiz",
+      "desc":"Biz sifatli mahsulot va tovarlarni ta'minlash sohasida ko'plab yillar tajribasiga ega bo'lamiz. Kuchli jamoa va doimiy ravishda yangi texnologiyalarni fermerlikka kirishimizga sabab bo'layapmiz.",
+      "btn": "Biz bilan bog'laning",
+      "items": [
+          {
+              "title": "Sog'liqni saqlagan sabzavotlar",
+              "desc": "Ta'mi va vitaminlari bilan bo'lgan taze tarqalgan sabzavotlarni ko'ring."
+          },
+          {
+              "title": "Taza mevalar",
+              "desc": "En jozibali va olg'an mevalarimizni, baqalarimizdan to'g'ri yo'l bilan stolingizga etkazib bering."
+          },
+          {
+              "title": "Sog'liqni saqlagan mo'ynalar",
+              "desc": "Etik muammosiz tarbiyalangan va xushxom ko'rsatilgan mo'ynalarimiz oilangiz uchun sifatli, paxtali go'sht ta'min etadi."
+          },
+          {
+              "title": "Zamonaviy yuk mashinalari",
+              "desc": "Bizning zamonaviy yuk mashinalarimiz bilan samarali va ishonchli yetkazib berish xisoblang, tez va xavfsiz etkazib berishni ta'minlaymiz."
+          },
+          {
+              "title": "Fermerlik rejalari",
+              "desc": "Fermaingizdagi produktivlik va barqarorlikni maksimal darajada oshirishga moslashtirilgan mutaxassislik bilan ishlangan fermerlik rejalarni toping."
+          }
+      ]
+  },
+
+  "contact": {
+      "subtitle":"Biz bilan bog'laning",
+      "title":"Iltimos, biz bilan aloqa qiling",
+      "feed-title": "Bog'laning",
+      "address" : {
+          "title": "Bizning ofis",
+          "text": "123 ko'cha, Nyu-York, AQSh"
+      },
+      "email": {
+          "title": "Bizga elektron pochta yuboring",
+          "text": "info@example.com"
+      },
+      "phone": {
+          "title": "Biz bilan bog'laning",
+          "text": "+012 345 6789"
+      }
   }
 }

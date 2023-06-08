@@ -17,9 +17,69 @@
         "btn-one": "Service",
         "btn-two": "Contact"
     },
-    "about-us": {
+    "about": {
         "subtitle": "About Us",
-        "title": "We Produce Organic Food For Your Family",
-        "desc": "Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum et tempor sit. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet magna"
+        "title": "MUKHAMMADIYEV OTABEK SOBIROVICH IS THE HEAD OF THE ENTERPRISE",
+        "desc": "BAKHMAL PLOTS's mandate is to raise levels of nutrition, improve agricultural productivity, better the lives of rural populations and contribute to the growth of the world economy. Achieving food security for all is at the heart of BAKHMAL PLOTS's efforts – to make sure people have regular access to enough high-quality food to lead active, healthy lives.",
+        "feature1": "100% Organic",
+        "feature1-text": "Our accomplishments have been recognized with numerous awards and accolades for outstanding achievements and quality of our work. ",
+        "feature2": "Award Winning",
+        "feature2-text": "Our accomplishments have been recognized with numerous awards and accolades for outstanding achievements and quality of our work."
+    },
+
+    "facts": {
+        "title": ["Meat per year", "Intensive garden", "Milk per year", "Farmland total"],
+        "kg": "kg",
+        "m2": "m2",
+        "litr": "litr"
+    },
+    "service": {
+        "subtitle":"Service",
+        "title":"Our Farm Services",
+        "desc":"We have many years of experience in the supply of quality products and goods in the field of agriculture. We have a strong team and we are constantly introducing new technologies to agriculture.",
+        "btn": "Contact us",
+        "items": [
+            {
+                "title": "Fresh Vegetables",
+                "desc": "Discover a wide variety of freshly harvested vegetables bursting with flavor and nutrients."
+            },
+            {
+                "title": "Fresh Fruits",
+                "desc": "Indulge in the juiciest and ripest fruits, straight from our orchards to your table."
+            },
+            {
+                "title": "Healty Cattle",
+                "desc": "Our ethically raised and well-cared-for cattle guarantee high-quality, nutritious meat for your family."
+            },
+            {
+                "title": "Modern Truck",
+                "desc": "Experience efficiency and reliability with our state-of-the-art trucks, ensuring prompt and safe delivery."
+            },
+            {
+                "title": "Farming Plans",
+                "desc": "Find expertly crafted farming plans tailored to optimize productivity and sustainability on your farm."
+            }
+        ]
+    },
+
+    "contact": {
+        "subtitle":"Contact Us",
+        "title":"Please Feel Free To Contact Us",
+        "feed-title": "Get In Touch",
+        "address" : {
+            "title": "Our Office",
+            "text": "123 Street, New York, USA"
+        },
+        "email": {
+            "title": "Email Us",
+            "text": "info@example.com"
+        },
+        "phone": {
+            "title": "Call Us",
+            "text": "+012 345 6789"
+        }
+    },
+    "form": {
+        "button": "Send Message"
     }
 }
