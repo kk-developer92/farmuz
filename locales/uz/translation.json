@@ -1,82 +1,92 @@
 {
   "menu": {
-      "about": "Biz haqimizda",
-      "service": "Xizmatlar",
-      "contact": "Bog'lanish"
+    "about": "Biz haqimizda",
+    "service": "Xizmatlar",
+    "contact": "Bog'lanish"
   },
   "slider": {
-      "1": {
-          "subtitle": "Organik Sabzavotlar",
-          "title": "Sog'liqni saqlash uchun organik sabzavotlar"
-         
-      },
-      "2": {
-          "subtitle": "Organik mevalar",
-          "title": "Yaxshi sog'liq uchun organik mevalar"
-      },
-      "btn-one": "Xizmatlar",
-      "btn-two": "Bog'lanish"
+    "1": {
+      "subtitle": "Organik Sabzavotlar",
+      "title": "Sog'liqni saqlash uchun organik go'shti"
+    },
+    "2": {
+      "subtitle": "Organik Sabzavotlar",
+      "title": "Yaxshi sog'liq uchun organik sabzavotlar"
+    },
+    "btn-one": "Xizmatlar",
+    "btn-two": "Bog'lanish"
   },
   "about": {
-      "subtitle": "Biz haqimizda",
-      "title": "MUKHAMMADIYEV OTABEK SOBIROVICH HAMMAZO'Y",
-      "desc": "BAKHMAL PLOTS pishloviy tarkibida ta'minot darajasini oshirish, qishloq aholisi sog'lom turmushini yaxshilash va urug'chilar hayot sifatini yuksaltirishga xizmat qiladi. Biz g'ovurilgan holda har bir kishiga faol va sog'lom hayot uchun yetarli miqdorda sifatli oziq-ovqatga ega bo'lishni ta'minlashga erishishni istaymiz. Bizning muvaffaqiyatimiz bemalol ma'qullangan va ajoyib ish va sifat uchun mukofotlar olingan. Biz dunyo iqtisodiyotining o'sishiga va qishloq xo'jaligining rivojlanishiga qiziqish duyamiz.",
-      "feature1": "100% Organik",
-      "feature1-text": "Bizning muvaffaqiyatimiz katta mahsulotlar va ishimizning sifati uchun ko'p mukofot va takdir bilan tan olingan.",
-      "feature2": "Mukofot olgan",
-      "feature2-text": "Bizning muvaffaqiyatimiz katta mahsulotlar va ishimizning sifati uchun ko'p mukofot va takdir bilan tan olingan."
+    "subtitle": "Biz haqimizda",
+    "title": "MUKHAMMADIYEV OTABEK SOBIROVICH HAMMAZO'Y",
+    "desc": "BAKHMAL PLOTS pishloviy tarkibida ta'minot darajasini oshirish, qishloq aholisi sog'lom turmushini yaxshilash va urug'chilar hayot sifatini yuksaltirishga xizmat qiladi. Biz g'ovurilgan holda har bir kishiga faol va sog'lom hayot uchun yetarli miqdorda sifatli oziq-ovqatga ega bo'lishni ta'minlashga erishishni istaymiz. Bizning muvaffaqiyatimiz bemalol ma'qullangan va ajoyib ish va sifat uchun mukofotlar olingan. Biz dunyo iqtisodiyotining o'sishiga va qishloq xo'jaligining rivojlanishiga qiziqish duyamiz.",
+    "feature1": "100% Organik",
+    "feature1-text": "Bizning muvaffaqiyatimiz katta mahsulotlar va ishimizning sifati uchun ko'p mukofot va takdir bilan tan olingan.",
+    "feature2": "Mukofot olgan",
+    "feature2-text": "Bizning muvaffaqiyatimiz katta mahsulotlar va ishimizning sifati uchun ko'p mukofot va takdir bilan tan olingan."
   },
-
   "facts": {
-      "title": ["Yillik go'sht miqdori", "Intensiv bog'", "Yillik sut miqdori", "Jami yer maydoni"],
-      "kg": "kg",
-      "m2": "m2",
-      "litr": "litr"
+    "title": [
+      "Yillik go'sht miqdori",
+      "Intensiv bog'",
+      "Yillik sut miqdori",
+      "Jami yer maydoni"
+    ],
+    "kg": "kg",
+    "m2": "m2",
+    "litr": "litr"
+  },
+  "job": {
+    "title": "Bizning ishimiz",
+    "desc": [
+      "2019-yilda Kazaxstan Respublikasidan qora mohirli qushbo'yli buzoq 50 donasini olib keldik va Ukrainadan turli xil o'g'itlarni yetkazib olib, hayvonlarimizning to'g'ri oziqlanishi va tez o'sishi uchun qo'shimcha ovqat ta'minlashdik.",
+      "Bugun fermamiz bizi xayratlanish bilan 500 donaga etgan mal umumiy soni, 2700 litr sut mahsulotlari va 30,000 kg go'sht mahsulotlarini qayta ishlash zavodlariga yetkazib berish bilan ko'ngilli qiladi.",
+      "Biz ham inqiyodli boshqariladigan intensiv bog'lari bilan iftixor qilamiz, 100 hektar maydonni band qilib, Xitoy suvlar tezlatish texnologiyasiga asoslangan holda yaratilganligi hamda 300 hektar maydonni ot va boshqa qishloq xo'jalik mahlulotlari ekish bilan."
+    ]
   },
   "service": {
-      "subtitle":"Xizmatlar",
-      "title":"Bizning ferma xizmatlarimiz",
-      "desc":"Biz sifatli mahsulot va tovarlarni ta'minlash sohasida ko'plab yillar tajribasiga ega bo'lamiz. Kuchli jamoa va doimiy ravishda yangi texnologiyalarni fermerlikka kirishimizga sabab bo'layapmiz.",
-      "btn": "Biz bilan bog'laning",
-      "items": [
-          {
-              "title": "Sog'liqni saqlagan sabzavotlar",
-              "desc": "Ta'mi va vitaminlari bilan bo'lgan taze tarqalgan sabzavotlarni ko'ring."
-          },
-          {
-              "title": "Taza mevalar",
-              "desc": "En jozibali va olg'an mevalarimizni, baqalarimizdan to'g'ri yo'l bilan stolingizga etkazib bering."
-          },
-          {
-              "title": "Sog'liqni saqlagan mo'ynalar",
-              "desc": "Etik muammosiz tarbiyalangan va xushxom ko'rsatilgan mo'ynalarimiz oilangiz uchun sifatli, paxtali go'sht ta'min etadi."
-          },
-          {
-              "title": "Zamonaviy yuk mashinalari",
-              "desc": "Bizning zamonaviy yuk mashinalarimiz bilan samarali va ishonchli yetkazib berish xisoblang, tez va xavfsiz etkazib berishni ta'minlaymiz."
-          },
-          {
-              "title": "Fermerlik rejalari",
-              "desc": "Fermaingizdagi produktivlik va barqarorlikni maksimal darajada oshirishga moslashtirilgan mutaxassislik bilan ishlangan fermerlik rejalarni toping."
-          }
-      ]
-  },
-
-  "contact": {
-      "subtitle":"Biz bilan bog'laning",
-      "title":"Iltimos, biz bilan aloqa qiling",
-      "feed-title": "Bog'laning",
-      "address" : {
-          "title": "Bizning ofis",
-          "text": "123 ko'cha, Nyu-York, AQSh"
+    "subtitle": "Xizmatlar",
+    "title": "Bizning ferma xizmatlarimiz",
+    "desc": "Biz sifatli mahsulot va tovarlarni ta'minlash sohasida ko'plab yillar tajribasiga ega bo'lamiz. Kuchli jamoa va doimiy ravishda yangi texnologiyalarni fermerlikka kirishimizga sabab bo'layapmiz.",
+    "btn": "Biz bilan bog'laning",
+    "items": [
+      {
+        "title": "Sog'liqni saqlagan sabzavotlar",
+        "desc": "Ta'mi va vitaminlari bilan bo'lgan taze tarqalgan sabzavotlarni ko'ring."
       },
-      "email": {
-          "title": "Bizga elektron pochta yuboring",
-          "text": "info@example.com"
+      {
+        "title": "Taza mevalar",
+        "desc": "En jozibali va olg'an mevalarimizni, baqalarimizdan to'g'ri yo'l bilan stolingizga etkazib bering."
       },
-      "phone": {
-          "title": "Biz bilan bog'laning",
-          "text": "+012 345 6789"
+      {
+        "title": "Sog'liqni saqlagan mo'ynalar",
+        "desc": "Etik muammosiz tarbiyalangan va xushxom ko'rsatilgan mo'ynalarimiz oilangiz uchun sifatli, paxtali go'sht ta'min etadi."
+      },
+      {
+        "title": "Zamonaviy yuk mashinalari",
+        "desc": "Bizning zamonaviy yuk mashinalarimiz bilan samarali va ishonchli yetkazib berish xisoblang, tez va xavfsiz etkazib berishni ta'minlaymiz."
+      },
+      {
+        "title": "Fermerlik rejalari",
+        "desc": "Fermaingizdagi produktivlik va barqarorlikni maksimal darajada oshirishga moslashtirilgan mutaxassislik bilan ishlangan fermerlik rejalarni toping."
       }
+    ]
+  },
+  "contact": {
+    "subtitle": "Biz bilan bog'laning",
+    "title": "Iltimos, biz bilan aloqa qiling",
+    "feed-title": "Bog'laning",
+    "address": {
+      "title": "Bizning ofis",
+      "text": "123 ko'cha, Nyu-York, AQSh"
+    },
+    "email": {
+      "title": "Bizga elektron pochta yuboring",
+      "text": "info@example.com"
+    },
+    "phone": {
+      "title": "Biz bilan bog'laning",
+      "text": "+012 345 6789"
+    }
   }
 }

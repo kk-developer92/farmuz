@@ -30,8 +30,18 @@
     "facts": {
         "title": ["Meat per year", "Intensive garden", "Milk per year", "Farmland total"],
         "kg": "kg",
-        "m2": "m2",
+        "m2": "m²",
         "litr": "litr"
+    },
+    "job": {
+        "title": "Our Jobs",
+        "desc": [
+            "In 2019, we imported 50 heads of black breed cattle from the Republic of Kazakhstan and a variety of animal feed from Ukraine to ensure proper nutrition and rapid growth of our livestock.",
+
+            "Today, our farm delights us with an increase in the number of cattle to 500 heads and supplies of 2700 liters of dairy products and 30,000 kg of meat products to processing facilities.",
+
+            "We are also proud of our intensive orchards, occupying 100 hectares of land and based on Chinese drip irrigation technology, as well as the cultivation of fodder crops and other agricultural crops on 300 hectares of land."
+        ]
     },
     "service": {
         "subtitle":"Service",
