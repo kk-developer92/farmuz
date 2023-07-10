@@ -6,6 +6,12 @@
     --dark: #263A4F;
 }
 
+@media (min-width: 1200px) {
+    .display-1 {
+        font-size: 4rem;
+    }
+}
+
 .btn {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
