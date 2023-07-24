@@ -41,7 +41,7 @@
         $('body').localize();
     }
     
-    $(function () {
+   function locMenu(idSwitcher, idDropdown){
         i18next
             .use(i18nextHttpBackend)
             .use(i18nextBrowserLanguageDetector)
@@ -56,8 +56,8 @@
     
                 jqueryI18next.init(i18next, $, { useOptionsAttr: true });
     
-                const languageSwitcher = document.getElementById('languageSwitcher');
-                const languageDropdown = document.getElementById('languageDropdown');
+                const languageSwitcher = document.getElementById(idSwitcher);
+                const languageDropdown = document.getElementById(idDropdown);
     
                 function updateLanguage(language) {
                     languageDropdown.querySelectorAll('.dropdown-item').forEach((item) => {
@@ -107,7 +107,12 @@
     
                 rerender();
             });
-    });
+    };
+
+    locMenu("languageSwitcher", "languageDropdown");
+    locMenu("languageSwitcher2", "languageDropdown2");
+
+
 
 
     AOS.init();
