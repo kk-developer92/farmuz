@@ -320,6 +320,10 @@
     .bg-footer {
         margin-top: 90px !important;
     }
+
+    #job img {
+        height: 100%;
+    }
 }
 
 
