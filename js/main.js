@@ -196,7 +196,7 @@ const processForm = form => {
         body: data,
     })
         .then(() => {
-            form.innerHTML = `<div class="form--success">Almost there! Check your inbox for a confirmation e-mail.</div>`;
+            form.innerHTML = `<div class="form--success">Your message has been successfully rebuilt! We will reply shortly.</div>`;
         })
         .catch(error => {
             form.innerHTML = `<div class="form--error">Error: ${error}</div>`;

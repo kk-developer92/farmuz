@@ -340,3 +340,13 @@
 .facts small {
     font-size: 0.475em;
 }
+
+.callback-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.6vw;
+    text-align: center;
+    height: 100%;
+}
