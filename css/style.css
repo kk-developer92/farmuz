@@ -350,3 +350,9 @@
     text-align: center;
     height: 100%;
 }
+
+@media (max-width: 767px) {
+    .form-control {
+        font-size: 14px;
+    }
+}
