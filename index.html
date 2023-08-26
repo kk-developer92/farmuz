@@ -375,22 +375,28 @@
             <div class="row g-0">
                 <div class="col-lg-7">
                     <div class="bg-primary h-100 p-5">
-                        <form>
+                        <form class="callback-form" name="callback" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                            <div hidden aria-hidden="true">
+                                <label>
+                                  Don’t fill this out if you're human: 
+                                  <input name="bot-field" />
+                                </label>
+                            </div>
                             <div class="row g-3">
                                 <div class="col-6">
-                                    <input type="text" class="form-control bg-light border-0 px-4"
+                                    <input type="text" name="name" class="form-control bg-light border-0 px-4" required
                                         placeholder="Your Name" style="height: 55px;">
                                 </div>
                                 <div class="col-6">
-                                    <input type="email" class="form-control bg-light border-0 px-4"
+                                    <input type="email" name="email" class="form-control bg-light border-0 px-4" required
                                         placeholder="Your Email" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <input type="text" class="form-control bg-light border-0 px-4" placeholder="Subject"
+                                    <input type="text" name="subject" class="form-control bg-light border-0 px-4" placeholder="Subject"
                                         style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control bg-light border-0 px-4 py-3" rows="2"
+                                    <textarea name="message" class="form-control bg-light border-0 px-4 py-3" rows="2"
                                         placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-12">

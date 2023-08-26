@@ -36,12 +36,12 @@
         uz: { nativeName: 'Uzbek', iconClass: 'fi fi-uz' },
         ru: { nativeName: 'Russian', iconClass: 'fi fi-ru' }
     };
-    
+
     const rerender = () => {
         $('body').localize();
     }
-    
-   function locMenu(idSwitcher, idDropdown){
+
+    function locMenu(idSwitcher, idDropdown) {
         i18next
             .use(i18nextHttpBackend)
             .use(i18nextBrowserLanguageDetector)
@@ -53,12 +53,12 @@
                 }
             }, (err, t) => {
                 if (err) return console.error(err);
-    
+
                 jqueryI18next.init(i18next, $, { useOptionsAttr: true });
-    
+
                 const languageSwitcher = document.getElementById(idSwitcher);
                 const languageDropdown = document.getElementById(idDropdown);
-    
+
                 function updateLanguage(language) {
                     languageDropdown.querySelectorAll('.dropdown-item').forEach((item) => {
                         item.classList.remove('selected');
@@ -66,17 +66,17 @@
                             item.classList.add('selected');
                         }
                     });
-    
+
                     const icon = languageSwitcher.querySelector('.fi');
                     const langData = lngs[language];
                     if (icon && langData) {
                         icon.className = langData.iconClass;
                     }
-    
+
                     $('html').attr('lang', language);
                     $('body').localize();
                 }
-    
+
                 Object.keys(lngs).map((lng) => {
                     const langData = lngs[lng];
                     const link = document.createElement('a');
@@ -84,7 +84,7 @@
                     link.href = '#';
                     link.setAttribute('data-lang', lng);
                     link.innerHTML = `<i class="${langData.iconClass} me-2"></i>${langData.nativeName}`;
-    
+
                     if (lng === i18next.resolvedLanguage) {
                         link.classList.add('selected');
                         const icon = languageSwitcher.querySelector('.fi');
@@ -92,10 +92,10 @@
                             icon.className = langData.iconClass;
                         }
                     }
-    
+
                     languageDropdown.appendChild(link);
                 });
-    
+
                 $(languageDropdown).on('click', '.dropdown-item', function (e) {
                     e.preventDefault();
                     const chosenLng = $(this).attr('data-lang');
@@ -104,7 +104,7 @@
                         updateLanguage(chosenLng);
                     });
                 });
-    
+
                 rerender();
             });
     };
@@ -117,8 +117,8 @@
 
     AOS.init();
 
-    
-    
+
+
 
     // Back to top button
     $(window).scroll(function () {
@@ -186,3 +186,29 @@
 
 })(jQuery);
 
+
+
+const processForm = form => {
+    const data = new FormData(form)
+    data.append('form-name', 'callback');
+    fetch('/', {
+        method: 'POST',
+        body: data,
+    })
+        .then(() => {
+            form.innerHTML = `<div class="form--success">Almost there! Check your inbox for a confirmation e-mail.</div>`;
+        })
+        .catch(error => {
+            form.innerHTML = `<div class="form--error">Error: ${error}</div>`;
+        })
+}
+
+
+
+const emailForm = document.querySelector('.callback-form')
+if (emailForm) {
+  emailForm.addEventListener('submit', e => {
+    e.preventDefault();
+    processForm(emailForm);
+  })
+}
